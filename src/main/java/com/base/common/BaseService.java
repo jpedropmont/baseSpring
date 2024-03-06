@@ -14,12 +14,7 @@ public abstract class BaseService<Entity extends BaseEntity, Repository extends 
     protected Repository repository;
 
     @Transactional
-    public Entity create(Entity entity) {
-        return repository.save(entity);
-    }
-
-    @Transactional
-    public Entity update(Long id, Entity entity) {
+    public Entity upsert(Entity entity) {
         return repository.save(entity);
     }
 

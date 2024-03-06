@@ -44,7 +44,7 @@ public class LessonController {
     @PostMapping
     public ResponseEntity<LessonOutput> create(@RequestBody LessonInput input) {
         var lesson = mapper.toEntity(input);
-        var newLesson = service.create(lesson);
+        var newLesson = service.upsert(lesson);
         var body = new LessonOutput(newLesson);
         return ResponseEntity.status(HttpStatus.CREATED).body(body);
     }
@@ -55,7 +55,7 @@ public class LessonController {
             @RequestBody LessonInput input) {
         var lessonToUpdate = service.getById(id);
         mapper.toEntity(input, lessonToUpdate);
-        var updatedLesson = service.update(id, lessonToUpdate);
+        var updatedLesson = service.upsert(lessonToUpdate);
         var body = new LessonOutput(updatedLesson);
         return ResponseEntity.ok(body);
     }
