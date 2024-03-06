@@ -1,9 +1,9 @@
-package com.riodevida.service;
+package com.base.service;
 
-import com.riodevida.common.BaseService;
-import com.riodevida.domain.lesson.Lesson;
-import com.riodevida.exceptions.NotFoundException;
-import com.riodevida.repository.LessonRepository;
+import com.base.common.BaseService;
+import com.base.domain.lesson.Lesson;
+import com.base.exceptions.NotFoundException;
+import com.base.repository.LessonRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

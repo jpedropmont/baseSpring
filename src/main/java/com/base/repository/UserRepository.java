@@ -1,7 +1,7 @@
-package com.riodevida.repository;
+package com.base.repository;
 
-import com.riodevida.common.BaseRepository;
-import com.riodevida.domain.user.User;
+import com.base.common.BaseRepository;
+import com.base.domain.user.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;
 

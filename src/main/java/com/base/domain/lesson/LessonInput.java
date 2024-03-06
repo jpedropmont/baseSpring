@@ -1,4 +1,4 @@
-package com.riodevida.domain.lesson;
+package com.base.domain.lesson;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;

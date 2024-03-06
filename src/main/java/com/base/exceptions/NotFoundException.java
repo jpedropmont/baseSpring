@@ -1,4 +1,4 @@
-package com.riodevida.exceptions;
+package com.base.exceptions;
 
 public class NotFoundException extends RuntimeException {
 

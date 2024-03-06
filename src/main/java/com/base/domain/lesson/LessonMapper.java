@@ -1,7 +1,5 @@
-package com.riodevida.domain.lesson;
+package com.base.domain.lesson;
 
-import com.riodevida.domain.lesson.Lesson;
-import com.riodevida.domain.lesson.LessonInput;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
 

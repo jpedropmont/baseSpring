@@ -1,4 +1,4 @@
-package com.riodevida.domain.user;
+package com.base.domain.user;
 
 public enum UserRole {
     ADMIN("admin"),

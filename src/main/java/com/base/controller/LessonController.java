@@ -1,9 +1,9 @@
-package com.riodevida.controller;
+package com.base.controller;
 
-import com.riodevida.domain.lesson.LessonMapper;
-import com.riodevida.domain.lesson.LessonInput;
-import com.riodevida.domain.lesson.LessonOutput;
-import com.riodevida.service.LessonService;
+import com.base.domain.lesson.LessonMapper;
+import com.base.domain.lesson.LessonInput;
+import com.base.domain.lesson.LessonOutput;
+import com.base.service.LessonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -61,7 +61,7 @@ public class LessonController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<LessonOutput> deleteLesson(@PathVariable Long id) {
+    public ResponseEntity<LessonOutput> delete(@PathVariable Long id) {
         var lesson = service.getById(id);
         service.delete(id);
         var body = new LessonOutput(lesson);

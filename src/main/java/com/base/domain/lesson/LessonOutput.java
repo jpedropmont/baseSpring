@@ -1,4 +1,4 @@
-package com.riodevida.domain.lesson;
+package com.base.domain.lesson;
 
 import java.util.Date;
 

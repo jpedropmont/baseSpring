@@ -1,4 +1,4 @@
-package com.riodevida.exceptions;
+package com.base.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.riodevida.exceptions;
+package com.base.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

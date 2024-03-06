@@ -1,6 +1,6 @@
-package com.riodevida.domain.lesson;
+package com.base.domain.lesson;
 
-import com.riodevida.common.BaseEntity;
+import com.base.common.BaseEntity;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

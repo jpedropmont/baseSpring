@@ -1,4 +1,4 @@
-package com.riodevida.common;
+package com.base.common;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

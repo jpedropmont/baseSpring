@@ -1,7 +1,7 @@
-package com.riodevida.repository;
+package com.base.repository;
 
-import com.riodevida.common.BaseRepository;
-import com.riodevida.domain.lesson.Lesson;
+import com.base.common.BaseRepository;
+import com.base.domain.lesson.Lesson;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

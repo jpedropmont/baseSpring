@@ -1,6 +1,6 @@
-package com.riodevida.common;
+package com.base.common;
 
-import com.riodevida.exceptions.NotFoundException;
+import com.base.exceptions.NotFoundException;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;

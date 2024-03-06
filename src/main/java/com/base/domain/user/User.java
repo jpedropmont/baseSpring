@@ -1,7 +1,6 @@
-package com.riodevida.domain.user;
+package com.base.domain.user;
 
-import com.riodevida.common.BaseEntity;
-import jakarta.persistence.Column;
+import com.base.common.BaseEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
