@@ -34,4 +34,4 @@ build/
 
 mysql_data
 .mvn
-application-local.properties
+src/main/resources/application-local.properties
